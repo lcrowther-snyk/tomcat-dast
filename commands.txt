@@ -1,0 +1,5 @@
+#semgrep
+semgrep scan
+
+#wapiti
+wapiti -u http://localhost:8081/
