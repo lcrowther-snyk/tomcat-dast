@@ -13,7 +13,7 @@
     </parent>
 
     <groupId>com.example</groupId>
-    <artifactId>deserialization-demo</artifactId>
+    <artifactId>dast-demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>Deserialization Demo</name>
     <description>Spring Boot demo for vulnerability exploitation using Tomcat 9.0.31</description>

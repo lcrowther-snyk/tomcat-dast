@@ -1,0 +1,44 @@
+<svg width="600" height="500" xmlns="http://www.w3.org/2000/svg">
+                              <!-- Background -->
+                              <rect width="100%" height="100%" fill="#ffffff"/>
+
+                              <!-- SCA Circle (Left) -->
+                              <circle cx="230" cy="300" r="120" fill="#ff9999" opacity="0.7"/>
+
+                              <!-- SAST Circle (Top) -->
+                              <circle cx="300" cy="200" r="120" fill="#99ff99" opacity="0.7"/>
+
+                              <!-- DAST Circle (Right) -->
+                              <circle cx="370" cy="300" r="120" fill="#9999ff" opacity="0.7"/>
+
+                              <!-- Labels for clarity -->
+                              <text x="280" y="50" font-family="Arial" font-size="20" fill="black" text-anchor="middle" font-weight="bold">
+                                  Venn Diagram: SCA, SAST, DAST
+                              </text>
+
+                              <!-- SCA Text -->
+                              <text x="170" y="265" font-family="Arial" font-size="10" fill="black" font-weight="bold">SCA</text>
+                              <text x="132" y="285" font-family="Arial" font-size="10" fill="black">Third-party dependencies</text>
+                              <text x="132" y="305" font-family="Arial" font-size="10" fill="black">SBOM</text>
+                              <text x="132" y="325" font-family="Arial" font-size="10" fill="black">Shift left in IDE</text>
+                              <text x="132" y="345" font-family="Arial" font-size="10" fill="black">OSS License violations</text>
+
+                              <!-- SAST Text -->
+                              <text x="280" y="120" font-family="Arial" font-size="10" fill="black" font-weight="bold">SAST</text>
+                              <text x="250" y="140" font-family="Arial" font-size="10" fill="black">Secrets detection</text>
+                              <text x="250" y="160" font-family="Arial" font-size="10" fill="black">Language specific vulns</text>
+                              <text x="250" y="180" font-family="Arial" font-size="10" fill="black">Data flow analysis</text>
+                              <text x="250" y="200" font-family="Arial" font-size="10" fill="black">Shift left in IDE</text>
+
+                              <!-- DAST Text -->
+                              <text x="390" y="270" font-family="Arial" font-size="10" fill="black" font-weight="bold">DAST</text>
+                              <text x="370" y="290" font-family="Arial" font-size="10" fill="black">Runtime testing</text>
+                              <text x="370" y="310" font-family="Arial" font-size="10" fill="black">Environment issues</text>
+                              <text x="370" y="330" font-family="Arial" font-size="10" fill="black">Complex multipart attacks</text>
+
+                              <!-- Middle Text -->
+                              <text x="300" y="280" font-family="Arial" font-size="10" fill="black" text-anchor="middle">OWASP top 10/</text>
+                              <text x="300" y="300" font-family="Arial" font-size="10" fill="black" text-anchor="middle">SANS 25</text>
+                              <text x="300" y="320" font-family="Arial" font-size="10" fill="black" text-anchor="middle">(SQLi, XSS, CSRF)</text>
+                              <text x="300" y="340" font-family="Arial" font-size="10" fill="black" text-anchor="middle">Known CVEs</text>
+                          </svg>
